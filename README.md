@@ -20,7 +20,7 @@ am: [HBUpdater](https://github.com/LyfeOnEdge/HBUpdater)
 
 ### 3DS
 universal game appstore soon
-If you would like to help maintain repos for these platforms, or contribute code / ideas, please feel free to make a PR or contact us on the [4TU Discord](https://discordapp.com/invite/F2PKpEj)!
+
 
 ## Maintaining a repo
 See [get's instructions](https://github.com/vgmoose/get#setting-up-repos) for setting up a repository. Everything is designed to be statically hosted. If there's no repo provided in the `repos.json` config file, then it will generate a default one pointing to [switchbru.com/appstore](http://switchbru.com/appstore/).
