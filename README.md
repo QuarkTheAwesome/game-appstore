@@ -1,4 +1,4 @@
-# Homebrew App Store
+# Guest's funni game store
 [![GPLv3 License](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square)](https://opensource.org/licenses/GPL-3.0)
 [![gitlab ci](https://gitlab.com/4TU/hb-appstore/badges/master/pipeline.svg?style=flat-square)](https://gitlab.com/4TU/hb-appstore/pipelines)
 [![travis](https://img.shields.io/travis/fortheusers/hb-appstore.svg?label=travis&style=flat-square)](https://travis-ci.org/fortheusers/hb-appstore)
