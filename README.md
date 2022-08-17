@@ -16,12 +16,10 @@ Extract the latest [hb-appstore](https://github.com/fortheusers/hb-appstore/rele
 
 ### Web and Desktop
 Web browsers can download files from the Homebrew App Store at [apps.fortheusers.org](https://apps.fortheusers.org). Source code: [hbas-frontend](https://gitlab.com/4TU/hbas-frontend)
+am: [HBUpdater](https://github.com/LyfeOnEdge/HBUpdater)
 
-Desktop platforms (Windows, MacOS, and Linux), can use @LyfeOnEdge's [unofficial-appstore](https://github.com/LyfeOnEdge/unofficial-appstore), or their alternative program: [HBUpdater](https://github.com/LyfeOnEdge/HBUpdater)
-
-### 3DS and Wii
-There are work-in-progress ports to 3DS and Wii, with varying degrees of feature support. These can be compiled using the instructions below, but aren't yet ready to be used by most users.
-
+### 3DS
+universal game appstore soon
 If you would like to help maintain repos for these platforms, or contribute code / ideas, please feel free to make a PR or contact us on the [4TU Discord](https://discordapp.com/invite/F2PKpEj)!
 
 ## Maintaining a repo
