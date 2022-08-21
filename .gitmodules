@@ -4,3 +4,9 @@
 [submodule "libs/chesto"]
 	path = libs/chesto
 	url = https://gitlab.com/4tu/chesto.git
+[submodule "hb-appstore"]
+	path = hb-appstore
+	url = https://github.com/fortheusers/hb-appstore
+[submodule "game-appstore"]
+	path = game-appstore
+	url = https://github.com/GuestDreemurr/game-appstore
