@@ -2,8 +2,8 @@
     "id": "hbas",
     "type": "application",
     "value": {
-        "author": "4TU Team",
-        "description": "Download homebrew apps with a UI",
+        "author": "GuestDreemurr",
+        "description": "Download Games Made by fans",
         "language": "c++",
         "sources": [ "gui", "console" ]
     },
