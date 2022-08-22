@@ -8,7 +8,6 @@ To run this program, a Wii U with access to the Homebrew Launcher is required. T
 
 Extract the latest [game-appstore](https://github.com/GuestDreemurr/game-appstore/releases) to `sd:/wiiu/apps/gamestore/`, and run "Guest's Game Store" from within Homebrew Launcher. When you're done, you can press the Minus (-) button to exit.
 
-### Web and Desktop
 
 
 
@@ -18,8 +17,6 @@ universal game appstore soon
 
 ## Getting a game on game-appstore
 DM:GuestDreemurr#1646 To Get your game on the appstore
-
-If you run into any issues and need help maintaining or setting up a libget repo, feel free to get in touch with vgmoose at me@vgmoose.com or on Discord.
 
 ## Compilation instructions
 This program is written using [chesto](https://gitlab.com/4TU/chesto) and has dependencies on libcurl, libget, and zlib. The chesto and libget libraries are included in this repo as submodules. SDL2 or SDL1 is also required depending on the target platform.
