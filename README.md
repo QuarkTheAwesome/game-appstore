@@ -18,29 +18,7 @@ universal game appstore soon
 ## Getting a game on game-appstore
 DM:GuestDreemurr#1646 To Get your game on the appstore
 
-## Compilation instructions
-This program is written using [chesto](https://gitlab.com/4TU/chesto) and has dependencies on libcurl, libget, and zlib. The chesto and libget libraries are included in this repo as submodules. SDL2 or SDL1 is also required depending on the target platform.
 
-You can get pre-compiled binaries for each platform under [Pipelines](https://gitlab.com/4TU/hb-appstore/pipelines) for a given commit. The download artifacts dropdown is to the right of the build passing status.
-
-### Building with Docker
-The easiest way to build is using the [Spheal](https://gitlab.com/4TU/spheal) x86_64 docker container. It uses this [dependency helper script](https://gitlab.com/4TU/spheal/-/blob/master/dependency_helper.sh) to be able to build for all supported platforms. This is how the pre-compiled binaries are built.
-
-1. Install [Docker](https://www.docker.com)
-2. Run the following, replacing `switch` with the target platform (one of `switch`, `wiiu`, or `pc` note: switch is not offically supported):
-```
-git clone --recursive https://gitlab.com/4TU/hb-appstore.git
-cd hb-appstore
-export PLATFORM=switch    # or wiiu, 3ds, wii, pc, pc-sdl1
-docker run -v $(pwd):/code -it registry.gitlab.com/4tu/spheal /bin/bash -c "cd /code && make $PLATFORM"
-```
-
-Depending on which platform you chose, `appstore.nro` or `appstore.rpx` should now be sitting in the cloned directory.
-
-If you are using an M1 Mac, you may have more luck running [dependency_helper.sh](https://gitlab.com/4TU/spheal/-/blob/master/dependency_helper.sh) inside of an arm64 ubuntu container, or trying the platform-specific instructions below.
-
-### Building for Specific Platforms
-Compilation instructions for specific supported platforms (Switch, Wii U, 3DS, Wii) can be found in [Compiling.md](https://gitlab.com/4TU/hb-appstore/-/blob/master/docs/Compiling.md)
 
 ## License
 This software is licensed under the GPLv3.
